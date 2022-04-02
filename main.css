@@ -10,3 +10,24 @@ html{
 .orange_text{
 	color: orange;
 }
+
+header {
+	background-color: #79bbed; 
+	border-bottom: 12px solid #e86535;
+	margin: -22px auto;
+}
+
+.main_container{
+	background-color: #f7aa45;
+}
+
+footer {
+	background-color: #79bbed; 
+	margin: -20px auto;
+	border-top: 12px solid #e86535;
+	padding: 10px 10px;
+}
+
+.home_item{
+display: block;
+}
