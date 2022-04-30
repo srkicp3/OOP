@@ -5,36 +5,7 @@
     <meta charset="UTF8">
     <title>Palačinkarnica Novi Sad</title>
     <link rel="stylesheet" href="main1.css">
-	<script>
-
-	function myFunction() {
-	var sastojci1 = document.getElementById("myPopup");
-	sastojci1.classList.toggle("show");
-}
-	function myFunction2() {
-	var sastojci1 = document.getElementById("myPopup2");
-	sastojci1.classList.toggle("show");
-}
-	function myFunction3() {
-	var sastojci1 = document.getElementById("myPopup3");
-	sastojci1.classList.toggle("show");
-
-}
-	function myFunction4() {
-	var sastojci1 = document.getElementById("myPopup4");
-	sastojci1.classList.toggle("show");
-
-}
-	function myFunction5() {
-	var sastojci1 = document.getElementById("myPopup5");
-	sastojci1.classList.toggle("show");
-
-}
-	function myFunction6() {
-	var sastojci1 = document.getElementById("myPopup6");
-	sastojci1.classList.toggle("show");
-}
-	</script>
+	<script src="main.js"></script>
 	</head>
 	<body>
 	<div class="meni">
@@ -43,6 +14,7 @@
 		<a href="#menu">Meni</a>
 		<a href="#onama">O nama | Gde nas naći</a>
 		<a href="#herosekcija">Početna</a>
+		<! ––<div id="korisnik" class="korisnik"></div>––>
 	</div>
 		<section id="herosekcija">
 			<div class="hero-slika">
@@ -163,4 +135,7 @@
 				</div>	
 			</div>		
 		</section>		
+		
+		<script>IspisiKorisnikaKonzola()</script>
+		<script>IspisiKorisnikaNaSajtu()</script>
 	</body>
