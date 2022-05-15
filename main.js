@@ -43,4 +43,44 @@
 	}
 	*/
 
+
+/*       let modalBtns = [...document.querySelectorAll(".button")];
+      modalBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.getAttribute("data-modal");
+          document.getElementById(modal).style.display = "block";
+        };
+      });
+      let closeBtns = [...document.querySelectorAll(".close")];
+      closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.closest(".modal2");
+          modal.style.display = "none";
+        };
+      });
+      window.onclick = function (event) {
+        if (event.target.className === "modal2") {
+          event.target.style.display = "none";
+        }
+      }; */
+	  
+/* let modalBtns = [...document.querySelectorAll(".sastojci2")];
+      modalBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.getAttribute("data-modal");
+          document.getElementById(modalOne).style.display = "block";
+        };
+      });
+      let closeBtns = [...document.querySelectorAll(".close")];
+      closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.closest(".modal1");
+          modal.style.display = "none";
+        };
+      });
+      window.onclick = function (event) {
+        if (event.target.className === "modal1") {
+          event.target.style.display = "none";
+        }
+      }; */
 	
