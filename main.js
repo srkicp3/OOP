@@ -26,6 +26,15 @@
 	var sastojci1 = document.getElementById("myPopup6");
 	sastojci1.classList.toggle("show");
 }
+	function PosaljiMejl()
+	{
+		var adr = document.getElementById('adresa').value;
+		
+
+		//concatenate to string to build URL
+		var url = "mailto:" + adr + "subject=Palačinkarnica Novi Sad&body=Vaša porudžbina je uspešno primljena primljena i biće dostavljena u roku od maksimalno 30 minuta!";
+		location.href = url; //(might want to use window.location or something else here)
+	}
 	/*
 	var x=4;
 	function IspisiKorisnikaKonzola(){
