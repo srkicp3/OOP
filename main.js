@@ -35,6 +35,11 @@
 		var url = "mailto:" + adr + "subject=Palačinkarnica Novi Sad&body=Vaša porudžbina je uspešno primljena primljena i biće dostavljena u roku od maksimalno 30 minuta!";
 		location.href = url; //(might want to use window.location or something else here)
 	}
+	/* https://stackoverflow.com/questions/51859358/how-to-read-json-file-with-fetch-in-javascript */
+/* 	 var mydata = JSON.parse(data);
+	 alert(mydata[0].ime);
+	 alert(mydata[1].ime);
+	 alert(mydata[2].ime); */
 	/*
 	var x=4;
 	function IspisiKorisnikaKonzola(){
