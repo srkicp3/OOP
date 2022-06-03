@@ -137,6 +137,7 @@ a:-webkit-any-link {
 	border-color: grey;
 	border-style: dotted;
 }
+
 .menideo1{
 	
 	height: 50%;
@@ -146,6 +147,7 @@ a:-webkit-any-link {
   display:flex;
   flex: 33%;
   margin-left: 279px;
+  
   
   
 }
@@ -246,7 +248,7 @@ a:-webkit-any-link {
   display: block;
  
 }
-.sastojci1 .sastojci1text{
+.sastojci1text{
   visibility: hidden;
   width: 160px;
   background-color: #555;
@@ -260,7 +262,7 @@ a:-webkit-any-link {
   left: 50%;
   margin-left: -80px;
 }
-.sastojci1 .sastojci1text::after {
+.sastojci1text::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -270,7 +272,7 @@ a:-webkit-any-link {
   border-style: solid;
   border-color: #555 transparent transparent transparent;
 }
-.sastojci1 .show {
+.show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s
@@ -413,4 +415,26 @@ textarea
 }
 .rezbtn:hover{
 	background:#ddd;
+}
+.slikaKafa{
+	height: 350px;
+	width : 450px;
+	border: 1px;
+	border-style: solid;
+}
+.pismeni{
+	background-color:red;
+	position: absolute;
+	width: 85%;
+	height: 100px;
+	top: 35%;
+    left: 10%;
+}
+.pismeni2{
+	background-color:red;
+	position: absolute;
+	width: 85%;
+	height: 100px;
+	top: 55%;
+    left: 10%;
 }
