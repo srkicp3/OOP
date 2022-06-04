@@ -425,16 +425,46 @@ textarea
 .pismeni{
 	background-color:red;
 	position: absolute;
-	width: 85%;
-	height: 100px;
+	width: 100%;
+	height: 170px;
 	top: 35%;
-    left: 10%;
+    left: 0%;
+	display: flex;
 }
 .pismeni2{
 	background-color:red;
 	position: absolute;
-	width: 85%;
-	height: 100px;
+	width: 100%;
+	height: 170px;
 	top: 55%;
-    left: 10%;
+    left: 0%;
+}
+.blk1{
+	width: 33.33%; 
+	height:100%; 
+	background-color:yellow;
+	border-top: 0px;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:5px;
+	border-color: grey;
+	border-style: solid;
+	
+}
+.blk2{
+	width: 33.33%; 
+	height:100%; 
+	background-color:blue;
+	border-top: 0px;
+	border-bottom:0px;
+	border-left:0px;
+	border-right:5px;
+	border-color: grey;
+	border-style: solid;
+}
+.blk3{
+	height:100px:; width: 33.33%; background-color:green;
+}
+.pismenispan1{
+	background-color:black;
 }
